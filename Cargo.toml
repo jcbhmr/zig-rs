@@ -7,4 +7,8 @@ edition = "2024"
 include_dir = "0.7.4"
 
 [build-dependencies]
+build-rs = "0.1.2"
 cc = "1.2.19"
+fs-err = "3.1.0"
+reqwest = { version = "0.12.15", features = ["blocking"] }
+zip = "2.6.1"
